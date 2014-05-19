@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense"
+         xmlns:shell="http://www.sitecore.net/shell">
+  <XCoreScheduledTaskHelper>
+    <FormPage Background="threedface">
+      <CodeBeside Type="XCore.SharedSource.ScheduledTask.ScheduledTaskHelper,XCore.SharedSource" />
+      <Toolbar Width="100%">
+        <Checkbox ID="ShowSystemCB" Click="XCore:refresh" />
+        <Space Width="10" />
+        <Literal Text="Show Sitecore Defaults" />
+        <Space Width="10" />
+        <Tooldivider />
+        <Space Width="10" />
+        <Toolbutton Header="Refresh" Icon="Applications/32x32/refresh.png" Click="XCore:refresh" />
+        <Space Width="10" />
+        <Tooldivider />
+        <Space Width="10" />
+        <Toolbutton Header="Execute" Icon="Applications/32x32/bullet_triangle_green.png" Click="XCore:execute" />
+      </Toolbar>
+      <GridPanel Width="100%" Height="100%" CellPadding="4">
+        <GridPanel Columns="1" Width="100%" Height="100%" CellPadding="4">
+          <table width="100%" cellpadding="0" height="100%" cellspacing="5"
+                 style="border-collapse: collapse; margin: 0px; " border="0">
+            <tr>
+              <td>
+                <Literal Text="Tasks defined as agents in config files:" style="font-weight:bold" />
+              </td>
+            </tr>
+            <tr Height="50%">
+              <td>
+                <Scrollbox ID="Agents" GridPanel.Width="90%" Padding="0">
+                  <Listview ID="AgentTaskList" View="Details" Width="100%" Background="white" MultiSelect="true">
+                    <ListviewHeader ID="ListviewHeader">
+                      <ListviewHeaderItem Name="Name" Header="Task Name" />
+                      <ListviewHeaderItem Name="MethodName" Header="Method Name" />
+                      <ListviewHeaderItem Name="Interval" Header="Interval" />
+                    </ListviewHeader>
+                  </Listview>
+                </Scrollbox>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <Space Width="32" />
+                <Literal Text="Tasks defined in sitecore (/sitecore/system/Tasks)" style="font-weight:bold" />
+                <Space Width="32" />
+              </td>
+            </tr>
+            <tr Height="50%">
+              <td>
+                <Scrollbox ID="ScheduledTasks" GridPanel.Width="90%" Padding="0">
+                  <Listview ID="ScheduledTaskList" View="Details" Width="100%" Background="white" MultiSelect="true">
+                    <ListviewHeader ID="ScheduledTaskListListviewHeader">
+                      <ListviewHeaderItem Name="Name" Header="Task Name" />
+                      <ListviewHeaderItem Name="CommandName" Header="Command Name" />
+                      <ListviewHeaderItem Name="LastRun" Header="Last Run" />
+                    </ListviewHeader>
+                  </Listview>
+                </Scrollbox>
+              </td>
+            </tr>
+          </table>
+        </GridPanel>
+      </GridPanel>
+    </FormPage>
+  </XCoreScheduledTaskHelper>
+</control>
