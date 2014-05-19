@@ -7,6 +7,96 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.ScheduledTaskHelper",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XCore.SharedSource", "XCore.SharedSource\XCore.SharedSource.csproj", "{2B2063D8-064C-4C8F-BF9B-14EA7F669936}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{AC7E2B76-3D3A-4534-BC2F-6371331006A5}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\ComponentArt.UIFramework.lic = Dependencies\ComponentArt.UIFramework.lic
+		Dependencies\ComponentArt.Web.UI.dll = Dependencies\ComponentArt.Web.UI.dll
+		Dependencies\EcmaScript.NET.modified.dll = Dependencies\EcmaScript.NET.modified.dll
+		Dependencies\HtmlAgilityPack.dll = Dependencies\HtmlAgilityPack.dll
+		Dependencies\HtmlAgilityPack.xml = Dependencies\HtmlAgilityPack.xml
+		Dependencies\ITHit.WebDAV.Server.dll = Dependencies\ITHit.WebDAV.Server.dll
+		Dependencies\Lucene.Net.Contrib.Analyzers.dll = Dependencies\Lucene.Net.Contrib.Analyzers.dll
+		Dependencies\Lucene.Net.Contrib.Core.dll = Dependencies\Lucene.Net.Contrib.Core.dll
+		Dependencies\Lucene.Net.Contrib.FastVectorHighlighter.dll = Dependencies\Lucene.Net.Contrib.FastVectorHighlighter.dll
+		Dependencies\Lucene.Net.Contrib.Highlighter.dll = Dependencies\Lucene.Net.Contrib.Highlighter.dll
+		Dependencies\Lucene.Net.Contrib.Memory.dll = Dependencies\Lucene.Net.Contrib.Memory.dll
+		Dependencies\Lucene.Net.Contrib.Queries.dll = Dependencies\Lucene.Net.Contrib.Queries.dll
+		Dependencies\Lucene.Net.Contrib.Regex.dll = Dependencies\Lucene.Net.Contrib.Regex.dll
+		Dependencies\Lucene.Net.Contrib.SimpleFacetedSearch.dll = Dependencies\Lucene.Net.Contrib.SimpleFacetedSearch.dll
+		Dependencies\Lucene.Net.Contrib.Snowball.dll = Dependencies\Lucene.Net.Contrib.Snowball.dll
+		Dependencies\Lucene.Net.Contrib.SpellChecker.dll = Dependencies\Lucene.Net.Contrib.SpellChecker.dll
+		Dependencies\Lucene.Net.dll = Dependencies\Lucene.Net.dll
+		Dependencies\Lucene.Net.xml = Dependencies\Lucene.Net.xml
+		Dependencies\Microsoft.Web.Infrastructure.dll = Dependencies\Microsoft.Web.Infrastructure.dll
+		Dependencies\Mvp.Xml.dll = Dependencies\Mvp.Xml.dll
+		Dependencies\Newtonsoft.Json.dll = Dependencies\Newtonsoft.Json.dll
+		Dependencies\Newtonsoft.Json.xml = Dependencies\Newtonsoft.Json.xml
+		Dependencies\RadEditor.Net2.dll = Dependencies\RadEditor.Net2.dll
+		Dependencies\Sitecore.Analytics.dll = Dependencies\Sitecore.Analytics.dll
+		Dependencies\Sitecore.Analytics.RobotDetection.dll = Dependencies\Sitecore.Analytics.RobotDetection.dll
+		Dependencies\Sitecore.Apps.Loader.dll = Dependencies\Sitecore.Apps.Loader.dll
+		Dependencies\Sitecore.Automation.MarketingAutomation.dll = Dependencies\Sitecore.Automation.MarketingAutomation.dll
+		Dependencies\Sitecore.Buckets.Client.dll = Dependencies\Sitecore.Buckets.Client.dll
+		Dependencies\Sitecore.Buckets.dll = Dependencies\Sitecore.Buckets.dll
+		Dependencies\Sitecore.Client.dll = Dependencies\Sitecore.Client.dll
+		Dependencies\Sitecore.Client.XML = Dependencies\Sitecore.Client.XML
+		Dependencies\Sitecore.ContentSearch.Client.dll = Dependencies\Sitecore.ContentSearch.Client.dll
+		Dependencies\Sitecore.ContentSearch.dll = Dependencies\Sitecore.ContentSearch.dll
+		Dependencies\Sitecore.ContentSearch.Linq.dll = Dependencies\Sitecore.ContentSearch.Linq.dll
+		Dependencies\Sitecore.ContentSearch.Linq.Lucene.dll = Dependencies\Sitecore.ContentSearch.Linq.Lucene.dll
+		Dependencies\Sitecore.ContentSearch.LuceneProvider.dll = Dependencies\Sitecore.ContentSearch.LuceneProvider.dll
+		Dependencies\Sitecore.ItemWebApi.dll = Dependencies\Sitecore.ItemWebApi.dll
+		Dependencies\Sitecore.Kernel.dll = Dependencies\Sitecore.Kernel.dll
+		Dependencies\Sitecore.Kernel.xml = Dependencies\Sitecore.Kernel.xml
+		Dependencies\Sitecore.Logging.dll = Dependencies\Sitecore.Logging.dll
+		Dependencies\Sitecore.Mvc.Analytics.dll = Dependencies\Sitecore.Mvc.Analytics.dll
+		Dependencies\Sitecore.Mvc.DeviceSimulator.dll = Dependencies\Sitecore.Mvc.DeviceSimulator.dll
+		Dependencies\Sitecore.Mvc.dll = Dependencies\Sitecore.Mvc.dll
+		Dependencies\Sitecore.Mvc.ExperienceEditor.dll = Dependencies\Sitecore.Mvc.ExperienceEditor.dll
+		Dependencies\sitecore.nexus.dll = Dependencies\sitecore.nexus.dll
+		Dependencies\Sitecore.NVelocity.dll = Dependencies\Sitecore.NVelocity.dll
+		Dependencies\Sitecore.Oracle.dll = Dependencies\Sitecore.Oracle.dll
+		Dependencies\Sitecore.Publishing.WebDeploy.dll = Dependencies\Sitecore.Publishing.WebDeploy.dll
+		Dependencies\Sitecore.Rocks.Server.Core.dll = Dependencies\Sitecore.Rocks.Server.Core.dll
+		Dependencies\Sitecore.Rocks.Server.dll = Dependencies\Sitecore.Rocks.Server.dll
+		Dependencies\Sitecore.Rocks.Server.Lucene.2313.dll = Dependencies\Sitecore.Rocks.Server.Lucene.2313.dll
+		Dependencies\Sitecore.Rocks.Server.Lucene.2941.dll = Dependencies\Sitecore.Rocks.Server.Lucene.2941.dll
+		Dependencies\Sitecore.Rocks.Server.Lucene.3030.dll = Dependencies\Sitecore.Rocks.Server.Lucene.3030.dll
+		Dependencies\Sitecore.Rocks.Server.Speak.dll = Dependencies\Sitecore.Rocks.Server.Speak.dll
+		Dependencies\Sitecore.Rocks.Server.Validation.dll = Dependencies\Sitecore.Rocks.Server.Validation.dll
+		Dependencies\Sitecore.Security.AntiCsrf.dll = Dependencies\Sitecore.Security.AntiCsrf.dll
+		Dependencies\Sitecore.SegmentBuilder.dll = Dependencies\Sitecore.SegmentBuilder.dll
+		Dependencies\Sitecore.Shell.MarketingAutomation.dll = Dependencies\Sitecore.Shell.MarketingAutomation.dll
+		Dependencies\Sitecore.Speak.Charting.dll = Dependencies\Sitecore.Speak.Charting.dll
+		Dependencies\Sitecore.Speak.Client.dll = Dependencies\Sitecore.Speak.Client.dll
+		Dependencies\Sitecore.Speak.Dialogs.dll = Dependencies\Sitecore.Speak.Dialogs.dll
+		Dependencies\Sitecore.Speak.ItemWebApi.dll = Dependencies\Sitecore.Speak.ItemWebApi.dll
+		Dependencies\Sitecore.Speak.Mvc.dll = Dependencies\Sitecore.Speak.Mvc.dll
+		Dependencies\Sitecore.Speak.Web.dll = Dependencies\Sitecore.Speak.Web.dll
+		Dependencies\Sitecore.Update.dll = Dependencies\Sitecore.Update.dll
+		Dependencies\Sitecore.Zip.dll = Dependencies\Sitecore.Zip.dll
+		Dependencies\Stimulsoft.Base.dll = Dependencies\Stimulsoft.Base.dll
+		Dependencies\Stimulsoft.Database.dll = Dependencies\Stimulsoft.Database.dll
+		Dependencies\Stimulsoft.Report.dll = Dependencies\Stimulsoft.Report.dll
+		Dependencies\Stimulsoft.Report.Web.dll = Dependencies\Stimulsoft.Report.Web.dll
+		Dependencies\Stimulsoft.Report.WebDesign.dll = Dependencies\Stimulsoft.Report.WebDesign.dll
+		Dependencies\System.Web.Helpers.dll = Dependencies\System.Web.Helpers.dll
+		Dependencies\System.Web.Mvc.dll = Dependencies\System.Web.Mvc.dll
+		Dependencies\System.Web.Razor.dll = Dependencies\System.Web.Razor.dll
+		Dependencies\System.Web.WebPages.Deployment.dll = Dependencies\System.Web.WebPages.Deployment.dll
+		Dependencies\System.Web.WebPages.dll = Dependencies\System.Web.WebPages.dll
+		Dependencies\System.Web.WebPages.Razor.dll = Dependencies\System.Web.WebPages.Razor.dll
+		Dependencies\Telerik.Web.UI.dll = Dependencies\Telerik.Web.UI.dll
+		Dependencies\Telerik.Web.UI.Skins.dll = Dependencies\Telerik.Web.UI.Skins.dll
+		Dependencies\Telerik.Web.UI.xml = Dependencies\Telerik.Web.UI.xml
+		Dependencies\XCore.SharedSource.dll = Dependencies\XCore.SharedSource.dll
+		Dependencies\Yahoo.Yui.Compressor.dll = Dependencies\Yahoo.Yui.Compressor.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7624B0D5-102A-44B1-AA6A-070CCC0DC482}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1FC425C1-80C8-420D-A85E-D96E7181968B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +114,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2A3FEC5-B293-4E9E-A208-E0506E46894D} = {7624B0D5-102A-44B1-AA6A-070CCC0DC482}
+		{2B2063D8-064C-4C8F-BF9B-14EA7F669936} = {1FC425C1-80C8-420D-A85E-D96E7181968B}
 	EndGlobalSection
 EndGlobal
