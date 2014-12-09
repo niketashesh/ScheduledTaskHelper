@@ -56,3 +56,32 @@ C:\inetpub\wwwroot\DevSitecore\Code\XCore.ScheduledTaskHelper\XCore.SharedSource
 C:\inetpub\wwwroot\DevSitecore\Code\XCore.ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.csprojResolveAssemblyReference.cache
 C:\inetpub\wwwroot\DevSitecore\Code\XCore.ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.dll
 C:\inetpub\wwwroot\DevSitecore\Code\XCore.ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.pdb
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\XCore.SharedSource.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\XCore.SharedSource.pdb
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Client.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Kernel.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Telerik.Web.UI.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Lucene.Net.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Analytics.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\ComponentArt.Web.UI.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Stimulsoft.Report.WebDesign.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Stimulsoft.Report.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Stimulsoft.Report.Web.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.NVelocity.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\ITHit.WebDAV.Server.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Mvp.Xml.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Logging.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Zip.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\RadEditor.Net2.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Stimulsoft.Base.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Client.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Sitecore.Kernel.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Telerik.Web.UI.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Lucene.Net.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.csprojResolveAssemblyReference.cache
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.dll
+C:\Users\Niket Ashesh\Source\Repos\ScheduledTaskHelper\XCore.SharedSource\obj\Debug\XCore.SharedSource.pdb

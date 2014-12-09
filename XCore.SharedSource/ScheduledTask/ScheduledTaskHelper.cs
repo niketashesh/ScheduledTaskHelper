@@ -7,6 +7,7 @@ using Sitecore;
 using Sitecore.Configuration;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
+using Sitecore.Globalization;
 using Sitecore.Jobs;
 using Sitecore.Reflection;
 using Sitecore.Shell.Applications.Dialogs.ProgressBoxes;
@@ -38,7 +39,7 @@ namespace XCore.SharedSource.ScheduledTask
                 if (agents.Any() || scheduledTasks.Any())
                 {
                     ProgressBox.Execute("XCoreScheduledTaskHelper", "XCore Scheduled Task Helper", "", RunAgent,
-                        "XCore:refresh", new object[] {agents, scheduledTasks});
+                        "XCore:refresh", new object[] { agents, scheduledTasks });
                 }
                 else
                 {
@@ -62,9 +63,9 @@ namespace XCore.SharedSource.ScheduledTask
                         Context.ClientPage.AddControl(AgentTaskList, item);
                         item.ID = Control.GetUniqueID("I");
                         item.Icon = "";
-                        item.ColumnValues["Name"] = item.Header = item.Value = node.Attributes["type"].Value;
-                        item.ColumnValues["MethodName"] = node.Attributes["method"].Value;
-                        item.ColumnValues["Interval"] = node.Attributes["interval"].Value;
+                        item.ColumnValues["Name"] = item.Header = item.Value = node.Attributes["type"] == null ? Translate.Text("No type is defined") : node.Attributes["type"].Value;
+                        item.ColumnValues["MethodName"] = node.Attributes["method"] == null ? Translate.Text("No method name is defined") : node.Attributes["method"].Value;
+                        item.ColumnValues["Interval"] = node.Attributes["interval"] == null ? Translate.Text("No interval is defined") : node.Attributes["interval"].Value;
                     }
                 }
             }
@@ -136,7 +137,7 @@ namespace XCore.SharedSource.ScheduledTask
             Job.Total = agentNodes.Count + scheduleItems.Count;
             foreach (XmlNode node in agentNodes)
             {
-                Job.AddMessage("Running {0}", new object[] {node.Attributes["type"]});
+                Job.AddMessage("Running {0}", new object[] { node.Attributes["type"] });
                 if (node != null)
                 {
                     object obj2 = ReflectionUtil.CreateObject(node);
@@ -157,7 +158,7 @@ namespace XCore.SharedSource.ScheduledTask
             scheduleItems.Where(itm => itm.TemplateID == TemplateIDs.Schedule).ToList().ForEach(itm =>
             {
                 var scheduledItem = new ScheduleItem(itm);
-                Job.AddMessage("Running {0}", new object[] {scheduledItem.DisplayName});
+                Job.AddMessage("Running {0}", new object[] { scheduledItem.DisplayName });
                 scheduledItem.Execute();
                 Job.Processed += 1L;
             });
